@@ -1,6 +1,8 @@
 # Smart Filter App
 
-Aplicação Laravel com Livewire 3 para filtro inteligente de produtos, permitindo busca por nome, múltiplas categorias e múltiplas marcas, com persistência dos filtros na URL e integração com Select2.
+Aplicação Laravel com Livewire 3 para filtro inteligente de produtos, permitindo busca por nome, múltiplas categorias e múltiplas marcas.
+
+![image](https://github.com/user-attachments/assets/ac9f24d5-ac9f-4d02-adbb-6aaf6ab88e46)
 
 ## Funcionalidades
 
@@ -9,24 +11,19 @@ Aplicação Laravel com Livewire 3 para filtro inteligente de produtos, permitin
 - **Filtro por múltiplas marcas** (multi-select)
 - **Persistência dos filtros** na URL (ao recarregar a página, os filtros permanecem)
 - **Botão para limpar filtros**
-- **Paginação dos resultados**
-- **Interface responsiva com TailwindCSS**
-- **Select2 integrado via Alpine.js para selects múltiplos**
 
 ## Tecnologias
 
-- [Laravel 12](https://laravel.com/)
-- [Livewire 3](https://livewire.laravel.com/)
-- [Alpine.js](https://alpinejs.dev/)
-- [Select2](https://select2.org/)
-- [TailwindCSS](https://tailwindcss.com/)
-- MySQL (Docker)
+- Laravel 12
+- Livewire 3
+- MySQL
+- Docker
 
 ## Como rodar o projeto
 
 1. **Clone o repositório**
     ```sh
-    git clone <url-do-repo>
+    git clone https://github.com/w-bonfim/smart-filter-app.git
     cd smart-filter-app
     ```
 
