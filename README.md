@@ -64,6 +64,13 @@ Aplicação Laravel com Livewire 3 para filtro inteligente de produtos, permitin
 - **Login:** admin@lmfrotas.com
 - **Senha:** 123
 
+## Telas do Sistema
+- **Login**
+![image](https://github.com/user-attachments/assets/f60f7188-5c8a-42b2-a5ae-dab875063e99)
+
+- **Filtro de prdutos**
+![image](https://github.com/user-attachments/assets/4046d0f2-69c2-448a-82d2-0ae0dcfb5b40)
+
 ## Observações
 
 - As migrations e seeders estão em `database/migrations` e `database/seeders`.
