@@ -2,8 +2,6 @@
 
 Aplicação Laravel com Livewire 3 para filtro inteligente de produtos, permitindo busca por nome, múltiplas categorias e múltiplas marcas.
 
-![image](https://github.com/user-attachments/assets/ac9f24d5-ac9f-4d02-adbb-6aaf6ab88e46)
-
 ## Funcionalidades
 
 - **Filtro por nome do produto**
@@ -46,7 +44,23 @@ Aplicação Laravel com Livewire 3 para filtro inteligente de produtos, permitin
     docker-compose exec app php artisan migrate --seed
     ```
 
+    > **Importante:** Popule o banco com seeders obrigatoriamente para acessar o sistema e criar o usuário administrador padrão.
+
 6. **Acesse no navegador**
     ```
     http://localhost:8000
     ```
+
+## Acesso ao sistema
+
+- **Login:** admin@bookmanager.com
+- **Senha:** 123
+
+## Observações
+
+- As migrations e seeders estão em `database/migrations` e `database/seeders`.
+- O filtro de produtos está disponível na rota `/produtos` (protegida por autenticação).
+- O layout utiliza TailwindCSS via CDN.
+
+---
+
