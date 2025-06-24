@@ -1,5 +1,16 @@
 <div class="max-w-2xl mx-auto mt-8 bg-white shadow rounded-lg p-6">
+    <form method="POST" action="{{ route('logout') }}">
+        @csrf
+        <button
+            type="submit"
+            class="bg-gray-200 hover:bg-gray-300 text-gray-800 px-4 py-2 rounded transition"
+        >
+           Sair
+        </button>
+    </form>
+
     <h1 class="text-2xl font-bold mb-4 text-center">Busca de Produtos</h1>
+
     <div class="mb-6">
         <input
             type="text"

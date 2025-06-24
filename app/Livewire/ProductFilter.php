@@ -31,7 +31,7 @@ class ProductFilter extends Component
             'products' => $products,
             'allCategories' => Category::all(),
             'allBrands' => Brand::all(),
-        ]);
+        ])->layout('layouts.app');
     }
 
     public function clearFilters()
