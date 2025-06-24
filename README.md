@@ -3,7 +3,7 @@
 Aplicação Laravel com Livewire 3 para filtro inteligente de produtos, permitindo busca por nome, múltiplas categorias e múltiplas marcas.
 
 ## Funcionalidades
-
+- **Autenticação de usuários**
 - **Filtro por nome do produto**
 - **Filtro por múltiplas categorias** (multi-select)
 - **Filtro por múltiplas marcas** (multi-select)
@@ -51,9 +51,17 @@ Aplicação Laravel com Livewire 3 para filtro inteligente de produtos, permitin
     http://localhost:8000
     ```
 
+7. **Testes**
+
+    Comando para rodar os testes automatizados do projeto:
+
+    ```sh
+    docker-compose exec app php artisan test
+    ```
+
 ## Acesso ao sistema
 
-- **Login:** admin@bookmanager.com
+- **Login:** admin@lmfrotas.com
 - **Senha:** 123
 
 ## Observações
