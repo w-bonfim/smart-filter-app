@@ -7,11 +7,9 @@
     @livewireStyles
 </head>
 <body class="bg-gray-100 text-gray-800">
-
     <div class="container mx-auto mt-10 p-4 bg-white rounded shadow">
-        @yield('content')
+        {{ $slot }}
+        @livewireScripts
     </div>
-
-    @livewireScripts
 </body>
 </html>
